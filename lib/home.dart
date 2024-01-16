@@ -21,6 +21,9 @@ class HomePage extends StatelessWidget {
               builder: (context, value, child) {
                 return Container(
                   color: value.resize ? Colors.amber : Colors.green,
+                  child: value.resize
+                      ? Center(child: Text('Hello'))
+                      : Center(child: Text('World')),
                   height: value.resize ? 200 : 100,
                   width: value.resize ? 200 : 100,
                 );
