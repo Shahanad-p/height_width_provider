@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:height_width_changing/provider.dart';
+import 'package:height_width_changing/controller/provider.dart';
 import 'package:provider/provider.dart';
 
 class HomePage extends StatelessWidget {
